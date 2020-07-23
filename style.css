@@ -68,3 +68,60 @@ header .login a:last-child:hover {
     transition: 400ms;
     color: brown;
 }
+
+/*=========inscrever======*/
+
+.inscrever {
+    background-color: white;
+    max-width: 940px;
+    margin: 8rem auto;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: #1a35e6 0 10px 25px -5px;
+}
+
+.inscrever a {
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.inscrever form {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.inscrever form input {
+    padding: 15px;
+    border: none;
+    background-color: #88f5d1;
+    border-radius: 5px;
+}
+
+.inscrever form p {
+    padding: 15px;
+    margin: 10px 0 5px 0;
+    text-align: left;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.inscrever form button {
+    padding: 15px;
+    width: 150px;
+    margin: 4rem auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inscrever form button:hover{
+    cursor: pointer;
+    background-color: #5B6FEE;
+    transition: 300ms;
+    opacity: 0.8;
+}
